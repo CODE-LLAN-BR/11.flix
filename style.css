@@ -1,0 +1,113 @@
+body{
+    max-width: 100%;
+    max-height: 100vh;
+    background-color: #141414;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30%;
+    
+}
+
+h1{
+    margin-top: 5%;
+    font-size: 28px;
+    font-weight: 500;
+    
+    
+}
+
+.container{
+    margin-top: 5%;
+    display: flex;
+    max-width: 700px;
+    
+    
+    
+
+
+}
+
+.photo-1{
+    display:flex;
+    width: 160px;
+    border-radius: 10px;   
+    border:2px solid rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+}
+
+.name-account{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.459)
+
+
+}
+
+li{
+    display: flex; 
+    flex-flow: column wrap;
+    cursor: pointer;
+    margin:0.5rem;
+}
+li:hover img{
+    border:2px solid white;
+    box-sizing: border-box;
+
+
+}
+li:hover .name-account{
+    color: white;
+
+} 
+
+
+div{
+    
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+button{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30%;
+    
+    width: 180px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.753);
+
+    background-color: #141414;
+    color: rgba(255, 255, 255, 0.753);
+    font-weight: 600;
+}
+button:hover{
+    background-color:white;
+    color: black;
+    cursor:pointer;
+    
+}
+
+
+
