@@ -17,10 +17,15 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 30%;
+    margin-top: 20%;
     
 }
-
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
 h1{
     margin-top: 5%;
     font-size: 28px;
